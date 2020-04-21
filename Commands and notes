@@ -1,0 +1,11 @@
+#FILE-PREP
+#1. Cutdown input variables to those relevant (.csv spreadsheet format)
+#2. Check structure of input spreadsheet: Biodiverse assumes coords are in cols 1 and 2, with count in column 3 (columns are counted from 0 (unlike in R)).)
+#3. Run Biodiverse script via command line
+#where -i = input file; -o = outputs; -c = cell size (in meters); -n = missing data value; aggregate_env_data_table2.exe is associated Perl script:
+
+aggregate_env_data_table2.exe -i *name_of_input_table.csv -o *DesiredOutputName* -c 100000 -n NA
+
+ 
+
+ 
