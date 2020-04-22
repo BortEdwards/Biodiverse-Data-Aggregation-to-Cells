@@ -6,6 +6,12 @@
 
 aggregate_env_data_table2.exe -i *name_of_input_table.csv -o *DesiredOutputName* -c 100000 -n NA
 
+
+#For usage instructions:
+
+aggregate_env_data_table.exe --help
+
+#This script is curtesy of Shawn Laffan. For updated versions and Biodiverse instructions see: https://github.com/shawnlaffan/biodiverse
  
 
  
